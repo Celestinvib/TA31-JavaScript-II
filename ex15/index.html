@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visor Imágenes</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="images-container">
+                <img src="img/foto1.jpg" alt="Taj Majal." onclick="changeViewer(1)">
+                <img src="img/foto2.jpg" alt="Campo Arado." onclick="changeViewer(2)">
+                <img src="img/foto3.jpg" alt="Partenón." onclick="changeViewer(3)">
+                <img src="img/foto4.jpg" alt="Barco Naval." onclick="changeViewer(4)">
+                <img src="img/foto5.jpg" alt="Montaña." onclick="changeViewer(5)">
+                <img src="img/foto6.jpg" alt="Templo de Abu Simbel." onclick="changeViewer(6)">
+                <img src="img/foto7.jpg" alt="Albacete." onclick="changeViewer(7)">
+                <img src="img/foto8.jpg" alt="Puente del diablo." onclick="changeViewer(8)">
+            </div>
+            <div id="viewer">
+                <h2>Visor Imágenes</h2>
+                <img id="viewerImg" src="img/foto1.jpg" alt="Taj Majal."><br>
+                <span id="caption"></span>	
+            </div>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>

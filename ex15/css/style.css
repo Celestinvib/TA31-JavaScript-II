@@ -1,0 +1,31 @@
+    #container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 4%;
+        margin-right:5%;
+    }
+
+    #images-container {
+        padding-right: 5%;
+        width: 25%;
+    }
+
+    #viewer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+    }
+
+    img {
+        width: 200px;
+        height:100px;
+    }
+
+    #viewerImg {
+        width: 450px;
+        height:350px;
+    }
