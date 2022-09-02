@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td,th{
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+}
+
+
+p {
+    margin: 5px;
+    cursor: pointer;
+}
