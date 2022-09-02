@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <p id="history"></p>
+            <input type="text" id="input" readonly="readonly">
+            <div id="sub-container-1">
+                <button class="calc-op" onclick="deleteValue()">Retr</button>
+                <button class="calc-op" onclick="clearCurrentInput()">CE</button>
+                <button class="calc-op" onclick="clearInput()">C</button>
+            </div>
+                <input type="button" value="7" onclick="add(this.value)">
+                <input type="button" value="8" onclick="add(this.value)">
+                <input type="button" value="9" onclick="add(this.value)">
+
+                <input type="button" value="/" onclick="makeMove(this.value)">
+                <input type="button" value="Raiz" onclick="sRoot()">
+                <br>
+                
+                <input type="button" value="4" onclick="add(this.value)">
+                <input type="button" value="5" onclick="add(this.value)">
+                <input type="button" value="6" onclick="add(this.value)">
+
+                <input type="button" value="*" onclick="makeMove(this.value)">
+                <input type="button" value="%" onclick="makeMove(this.value)">
+                <br>
+
+                <input type="button" value="1" onclick="add(this.value)">
+                <input type="button" value="2" onclick="add(this.value)">
+                <input type="button" value="3" onclick="add(this.value)">
+
+                <input type="button" value="-" onclick="makeMove(this.value)">
+                <input type="button" value="1/x" onclick="oneSplit()">
+                <br>
+
+                <input type="button" value="0" onclick="add(this.value)">
+                <input type="button" value="+/-" onclick="changeValue()">
+                <input type="button" value="." onclick="add(this.value)">
+                <input type="button" value="+" onclick="makeMove(this.value)">
+                
+                <input type="button" value="=" onclick="resolve()">
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
